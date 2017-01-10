@@ -424,7 +424,7 @@ _________________________________________________________ -->
         <!-- *** REFERENCES END *** -->
 
        
-        <!-- *** CONTACT ***
+   <!-- *** CONTACT ***
 _________________________________________________________ -->
 
         <div class="section contact" id="contact" data-animate="bounceIn">
@@ -437,33 +437,29 @@ _________________________________________________________ -->
                     <div class="row">
 
                         <div class="col-md-8 col-md-offset-2">
-                            <form method="post" action="https://formspree.io/karim.abdelhameed@bluecrunch.com">
+                            <form   method="POST"  action="//formspree.io/karim.abdelhameed@bluecrunch.com" >
 
-                                <div class="messages">
-
-                                </div>
-
+     
                                 <div class="controls">
 
                                     <div class="row">
+									
                                         <div class="col-md-6">
-                                            <input type="text" name="name" class="form-control" placeholder="Your firstname *" required="required">
+                                            <input type="text" required="true"  name="name" class="form-control" placeholder="Your name *" >
                                         </div>
+                   
                                         <div class="col-md-6">
-                                            <input type="text" name="surname" class="form-control" placeholder="Your lastname *" required="required">
+                                            <input type="email" name="_replyto" class="form-control" placeholder="Your email *" required="true">
                                         </div>
-                                        <div class="col-md-6">
-                                            <input type="text" name="email" class="form-control" placeholder="Your email *" required="required">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input type="text" name="phone" class="form-control" placeholder="Your phone">
-                                        </div>
+                            
                                         <div class="col-md-12">
-                                            <textarea name="message" class="form-control" placeholder="Message for me *" rows="4" required="required"></textarea>
+                                            <textarea id="message" name="message"  class="form-control" placeholder="Message for me *" rows="4" required="true"></textarea>
                                         </div>
                                         <div class="col-md-12 text-center">
-                                            <input type="submit" class="btn btn-primary btn-lg" value="Send message">
+										 <button type="submit" class="btn btn-primary btn-lg">Send message</button>
+                                          
                                         </div>
+										
                                     </div>
                                 </div>
 
@@ -480,6 +476,7 @@ _________________________________________________________ -->
         <!-- /.section -->
 
         <!-- *** CONTACT END *** -->
+
 
         <!-- *** MAP END *** -->
 
